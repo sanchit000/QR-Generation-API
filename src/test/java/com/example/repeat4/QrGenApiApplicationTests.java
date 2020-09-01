@@ -46,7 +46,7 @@ class QrGenAppApplicationTests {
 		send_data.setEncodeinfo(encodeinfo);
 		User_Data user_data=new User_Data();
 		user_data.setClient_id(1234);
-		user_data.setEmail("chirayumaheshwari5@gmail.com");
+		user_data.setEmail("XYZ@gmail.com");
 		user_data.setKey_gen(1234);
 		assertEquals("successful", obj1.sendmail(user_data));
 		}
